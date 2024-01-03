@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   
+    width: 500px;
+    border: 1px solid grey;
+    padding: 20px 10px;
+}
+header{
+    padding: 20px;
+}
+.body {
+    display: flex;
+    margin: 20px;
+}
+.left{
+    margin-right: 20px;
+}
+::placeholder{
+    padding:8px 12px 0px;
+}
+input{
+    margin-bottom: 20px;
+}
+footer{
+    padding-right: 20px;
+    display: flex;
+    justify-content: right;
+}
+button{
+    width: 250px;
+    color: white;
+    background-color: brown;
+    border-radius: 3px;
+    border-color: rgb(190, 150, 150);
+}
